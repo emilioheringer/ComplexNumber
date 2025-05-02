@@ -23,11 +23,11 @@ a.showPolar();                       // Display result in polar form
 
 ## Documentation
 
-📚 Full documentation is available [here]https://68152555f9f0c91d5517d804--fabulous-gingersnap-63608b.netlify.app/com/heringer/package-summary.html).
+📚 Full documentation is available [here](https://68152555f9f0c91d5517d804--fabulous-gingersnap-63608b.netlify.app/com/heringer/package-summary.html).
 
 ## Installation
 
-
+## Gradle
 Add the following to your `build.gradle`:
 
 ```gradle
@@ -43,7 +43,16 @@ dependencies {
     implementation 'com.github.emilioheringer:ComplexNumber:1.0.0'
 }
 ```
+
+## Maven
 Add the following to your `pom.xml`:
+```
+<dependency>
+    <groupId>com.github.emilioheringer</groupId>
+    <artifactId>ComplexNumber</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
 
 ## License
 
