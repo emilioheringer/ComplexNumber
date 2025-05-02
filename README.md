@@ -60,69 +60,6 @@ Add the following to your `pom.xml`:
 </dependency>
 ```
 
-ComplexNumber Java Library
-A comprehensive Java library for working with complex numbers in both rectangular and polar forms. This library supports various operations such as addition, subtraction, multiplication, division, and conversion between forms.
-
-Features
-Create complex numbers from strings or from real and imaginary parts.
-
-Parse rectangular (e.g., 3+4i) and polar (e.g., 5<53.13) forms.
-
-Retrieve real part, imaginary part, magnitude, and angle (in degrees or radians).
-
-Convert between rectangular and polar representations.
-
-Perform arithmetic operations: add, subtract, multiply, divide.
-
-Includes static utility methods for common operations.
-
-Usage
-java
-Copiar
-Editar
-Complex a = new Complex(3, 4);       // Rectangular form
-Complex b = new Complex("5<53.13");  // Polar form
-a.add(b).showRec();                  // Display result in rectangular form
-a.showPolar();                       // Display result in polar form
-Documentation
-📚 Full documentation is available here.
-
-Installation
-Gradle
-Add the following to your build.gradle:
-
-gradle
-Copiar
-Editar
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
-}
-
-dependencies {
-    implementation 'com.github.emilioheringer:ComplexNumber:1.0.0'
-}
-Maven
-Add the following to your pom.xml:
-
-xml
-Copiar
-Editar
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-<dependency>
-    <groupId>com.github.emilioheringer</groupId>
-    <artifactId>ComplexNumber</artifactId>
-    <version>1.0.0</version>
-</dependency>
-
 ## License
 
 MIT License
