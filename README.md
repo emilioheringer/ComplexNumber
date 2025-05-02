@@ -23,7 +23,7 @@ a.showPolar();                       // Display result in polar form
 
 ## Documentation
 
-📚 Full documentation is available [here](https://app.netlify.com/sites/fabulous-gingersnap-63608b/deploys/68152555f9f0c91d5517d804).
+📚 Full documentation is available [here]https://fabulous-gingersnap-63608b.netlify.app/com/heringer/package-summary).
 
 ## Installation
 
