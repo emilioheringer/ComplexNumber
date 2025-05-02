@@ -46,7 +46,13 @@ dependencies {
 
 ## Maven
 Add the following to your `pom.xml`:
-```
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
 <dependency>
     <groupId>com.github.emilioheringer</groupId>
     <artifactId>ComplexNumber</artifactId>
